@@ -123,7 +123,7 @@ body {
         -webkit-transition: background-color 0.2s;
         -moz-transition: background-color 0.2s;
         transition: background-color 0.2s;
-        background-color: rgba(255, 255, 255, 0.9); }
+        background-color: white; }
         #mainNav.is-fixed .navbar-brand {
           color: #212529; }
           #mainNav.is-fixed .navbar-brand:focus, #mainNav.is-fixed .navbar-brand:hover {
