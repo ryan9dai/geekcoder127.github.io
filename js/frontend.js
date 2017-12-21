@@ -2,7 +2,8 @@ var pagesData = [
   ["Full-Stack Fun","A Blog for Any and All Web-Dev Lovers!"],
   ["About Me","This is what I do."]
 ];
-var currentPage = 0;
+var postPreviewShownAmount = 0;
+var currentPage = window.location.href.split("?")[1] || 0;
 (function($) {
   "use strict"; // Start of use strict
 
@@ -29,7 +30,8 @@ var currentPage = 0;
       }
     }
   });
-  switchNav($("#mainNav .nav-link:eq(0)"),true);
+  switchNav($("#mainNav .nav-link:eq(" + currentPage + ")"),true);
+  addPosts();
 })(jQuery); // End of use strict
 
 $("#mainNav .nav-link").on("click",function(){

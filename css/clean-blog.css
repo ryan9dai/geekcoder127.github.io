@@ -323,3 +323,6 @@ footer {
 .nav-link {
   cursor: pointer;
 }
+.js-add-posts{
+  color: white !important;
+}
