@@ -44,6 +44,8 @@ function switchNav(item,first){
   var pageIndex = $("#mainNav .nav-link").index($(item));
   currentPage = pageIndex;
   $(".masthead").css("background-image","url(img/" + pageIndex + "-bg.jpg)");
+  $(".masthead .site-heading").removeClass("post-heading");
+  $(".masthead .site-heading").html('<h1></h1><span class="subheading"></span>');
   $(".masthead .site-heading h1").text(pagesData[pageIndex][0]);
   $(".masthead .site-heading .subheading").text(pagesData[pageIndex][1]);
   $(".container.main.active").removeClass("active");

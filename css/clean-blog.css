@@ -165,6 +165,8 @@ header.masthead {
   header.masthead .page-heading,
   header.masthead .site-heading {
     text-align: center; }
+    header.masthead .post-heading {
+    text-align: left; }
     header.masthead .page-heading h1,
     header.masthead .site-heading h1 {
       font-size: 50px;
