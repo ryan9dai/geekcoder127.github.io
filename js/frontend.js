@@ -1,9 +1,25 @@
+function generateDate(date){
+  var dateData = date.split("/");
+  var months = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var newDate = "";
+  newDate += months[dateData[0]-1] + " ";
+  newDate += dateData[1] + ", ";
+  newDate += dateData[2];
+  return newDate;
+}
+
 var pagesData = [
   ["Full-Stack Fun","A Blog for Any and All Web-Dev Lovers!"],
   ["About Me","This is what I do."]
 ];
 var postPreviewShownAmount = 0;
-var currentPage = window.location.href.split("?")[1] || 0;
+var currentPage = getQueryVariable("p");
+if(!currentPage){
+  currentPage = 0;
+}
+if(getQueryVariable("post")){
+  currentPage = 2;
+}
 (function($) {
   "use strict"; // Start of use strict
 
@@ -30,12 +46,14 @@ var currentPage = window.location.href.split("?")[1] || 0;
       }
     }
   });
-  switchNav($("#mainNav .nav-link:eq(" + currentPage + ")"),true);
-  addPosts();
+  if(currentPage != 2){
+    switchNav($("#mainNav .nav-link:eq(" + currentPage + ")"),true);
+  }
 })(jQuery); // End of use strict
 
 $("#mainNav .nav-link").on("click",function(){
-  switchNav($(this),false);
+  var pageIndex = $("#mainNav .nav-link").index($(this));
+  window.open("?p=" + pageIndex,"_self");
 });
 function switchNav(item,first){
   if(!first){
