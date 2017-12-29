@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+html {
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif;
+}
+@media(min-width: 38em) {
+  html {
+    font-size: 20px;
+  }
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+body {
+  max-width: 45rem;
+  color: #515151;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.75rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-bottom: .5rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility;
+}
+h1{
+  font-size: 2rem;
+}
+h2{
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3{
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+p {
+  font-size: 1rem;
+}
+.container:not(.active) {
+  display: none;
+}
+.container:nth-child(1) {
+  text-align: center;
+}
+.muted {
+  color: #999;
+}
+.top-area {
+  height: 5rem;
+  margin-bottom: 1.25rem;
+}
+.top-area a,.top-area small {
+  font-size: 1.25rem;
+  line-height: 3.5rem;
+  font-weight: 600;
+  display: inline-block;
+}
+.top-area small{
+  font-size: calc(1.25rem * 0.75);
+  opacity: 0.7;
+  font-weight: normal;
+}
+.post-link,.search input {
+  width: 100%;
+  border: 1px solid rgba(0,0,0,0.5);
+  padding: 1rem;
+  margin: 2rem 0;
+  box-sizing: border-box;
+  display: block;
+  box-shadow: 0 0 1vh rgba(0,0,0,0.5);
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+.post-link:hover,.search input:focus {
+  text-decoration: none;
+  transform: scale(1.025);
+  border-color: black;
+  box-shadow: 0 0 1.5vh black;
+}
+.post-link h2 {
+  line-height: 3rem;
+  font-size: 2.5rem;
+}
+.post-link h3 {
+  line-height: 
+}
+.post-link p {
+  float: right;
+  font-size: 50%;
+}
+.search input {
+  font-size: 1.5rem;
+  font-family: inherit;
+}
+.loading {
+  width: 100%;
+  line-height: 5rem;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.post-list.searched .post-link:not(.active-link){
+  display: none;
+}
+footer {
+  margin-top: 2rem;
+}
