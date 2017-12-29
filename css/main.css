@@ -52,6 +52,12 @@ h3{
 p {
   font-size: 1rem;
 }
+pre {
+  padding: 1rem !important;
+}
+code {
+  font-size: 75%;
+}
 .container:not(.active) {
   display: none;
 }
