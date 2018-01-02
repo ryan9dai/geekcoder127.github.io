@@ -1,0 +1,7 @@
+# Site settings
+title: Fred Adams's Blog
+description: A blog where tech enthusiast and web-dev lover Fred Adams talks about tech and programming.
+keywords: Blog, Tech, Programming, Javascript, HTML, CSS, PHP, Ruby, Jekyll, Web-Development, Node.js, Express.js, Mongodb, Firebase
+author: Fred Adams
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://geekcoder127.github.io" # the base hostname & protocol for your site

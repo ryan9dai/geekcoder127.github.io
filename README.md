@@ -1,2 +1,3 @@
-# The-Frontend-Feast
-My blog about frontend technologies, such as HTML, CSS, JavaScript, jQuery, Firebase, Angular, and more.
+# Fred Adams's Blog
+## Where I talk about tech and programming every Friday
+Read at http://geekcoder127.github.io
