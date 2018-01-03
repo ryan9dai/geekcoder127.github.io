@@ -6,13 +6,60 @@
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self"
         type="application/rss+xml"/>
-        <pubDate>Tue, 02 Jan 2018 21:30:52 +0000</pubDate>
-        <lastBuildDate>Tue, 02 Jan 2018 21:30:52 +0000</lastBuildDate>
+        <pubDate>Wed, 03 Jan 2018 19:30:04 +0000</pubDate>
+        <lastBuildDate>Wed, 03 Jan 2018 19:30:04 +0000</lastBuildDate>
         <generator>Jekyll v3.7.0</generator>
         
         <item>
             <title>A Brief Introduction</title>
-            <description>&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;print&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+            <description>&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Hello World.&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Well hello there! My name is Fred. Fred Adams.&lt;/p&gt;
+
+&lt;p&gt;If you’re reading this and you’re not me, well, I’m very happy that you are!&lt;/p&gt;
+
+&lt;p&gt;I’ve spent quite a bit of time making this blog, even if I do have Github Pages (and Jekyll) to help me.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-who-am-i-anyway&quot;&gt;So who am I anyway?&lt;/h2&gt;
+
+&lt;p&gt;I’m basically a sort of tech-addict. I like to buy tech, play around with it, and anything else you could possibly think about to do with tech.&lt;/p&gt;
+
+&lt;p&gt;You’re probably thinking that I live a pretty depressing life because I just stay indoors 24/7 and play around with tech.&lt;/p&gt;
+
+&lt;p&gt;Although that is partly true, I don’t just play around with tech.&lt;/p&gt;
+
+&lt;h2 id=&quot;i-do-a-lot-of-programming&quot;&gt;I do A LOT of programming.&lt;/h2&gt;
+
+&lt;p&gt;I mainly do web development, but I also am pretty good at Python and Java.&lt;/p&gt;
+
+&lt;p&gt;I work on completely random projects, some of which are actually useful, and others are just… random.&lt;/p&gt;
+
+&lt;p&gt;I’m also constantly learning about the new and shiny technologies in the programming world. And also the old technologies that I haven’t gotten around to learning yet.&lt;/p&gt;
+
+&lt;p&gt;I honestly can’t guarantee you that my programming is completely top notch, because I’ve only been programming for around 4 years, and counting, of course.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-why-should-i-listen-to-you-if-you-only-have-4-years-of-experience&quot;&gt;So why should I listen to you if you only have 4 years of experience??&lt;/h2&gt;
+
+&lt;p&gt;Well, honestly, I don’t know why you should listen to me.&lt;/p&gt;
+
+&lt;p&gt;I’m starting this blog is because I read several good blogs myself, and I wanted to give something back to the programmer community.&lt;/p&gt;
+
+&lt;p&gt;And even if I only have a few years of experience, I assure you that I will put my best effort into making these posts as easy to read, as easy to understand, and as professional as I possibly can.&lt;/p&gt;
+
+&lt;h2 id=&quot;so-how-is-this-blog-going-to-work-exactly&quot;&gt;So how is this blog going to work exactly?&lt;/h2&gt;
+
+&lt;p&gt;Well, I will post on this blog every Friday at 12:00 PM Eastern Standard Time.&lt;/p&gt;
+
+&lt;p&gt;These posts will all be about programming, whether I’m talking about a new project I’m working on, or explaining a new (or old) programming technology.&lt;/p&gt;
+
+&lt;h3 id=&quot;but-if-youre-not-interested-in-hearing-me-talk-about-random-programming-topics-i-will-post-on-wednesdays-1200-pm-est-every-once-and-a-while&quot;&gt;But if you’re not interested in hearing me talk about random programming topics, I will post on Wednesdays (12:00 PM EST) every once and a while.&lt;/h3&gt;
+
+&lt;p&gt;Wednesday posts will generally be me ranting about the latest failure Apple product, or maybe why you should really start using VSCode right now.&lt;/p&gt;
+
+&lt;h3 id=&quot;i-guess-thats-all-for-now&quot;&gt;I guess that’s all for now.&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;write&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&amp;lt;h1&amp;gt;Thanks For Reading!&amp;lt;/h1&amp;gt;&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 </description>
             <pubDate>Thu, 05 Jan 2017 12:12:12 +0000</pubDate>
