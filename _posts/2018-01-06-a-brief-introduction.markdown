@@ -2,7 +2,7 @@
 title:  "A Brief Introduction"
 subtitle: "My First Blog Post"
 image: "https://static.pexels.com/photos/699122/pexels-photo-699122.jpeg"
-date: 2017-01-05 12:12:12
+date: 2018-01-06 12:12:12
 ---
 
 ``` javascript
@@ -43,7 +43,7 @@ And even if I only have a few years of experience, I assure you that I will put 
 
 ## So how is this blog going to work exactly?
 
-Well, I will post on this blog every Friday at 12:00 PM Eastern Standard Time.
+Well, I will post on this blog every Saturday at 9:45 PM Eastern Standard Time.
 
 These posts will all be about programming, whether I’m talking about a new project I’m working on, or explaining a new (or old) programming technology.
 
