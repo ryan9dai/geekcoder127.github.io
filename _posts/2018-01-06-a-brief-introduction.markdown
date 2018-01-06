@@ -49,7 +49,7 @@ These posts will all be about programming, whether I’m talking about a new pro
 
 ### But if you're not interested in hearing me talk about random programming topics, I will post on Wednesdays (12:00 PM EST) every once and a while.
 
-Wednesday posts will generally be me ranting about the latest failure Apple product, or maybe why you should really start using VSCode right now.
+Wednesday posts will generally be me ranting about the latest terrible Apple product, or maybe why you should really start using VSCode right now.
 
 ### I guess that’s all for now.
 
