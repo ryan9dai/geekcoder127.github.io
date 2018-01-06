@@ -37,7 +37,7 @@ I honestly can’t guarantee you that my programming is completely top notch, be
 
 Well, honestly, I don’t know why you should listen to me.
 
-I’m starting this blog is because I read several good blogs myself, and I wanted to give something back to the programmer community.
+I’m starting this blog because I read several good blogs myself, and I wanted to give something back to the programmer community.
 
 And even if I only have a few years of experience, I assure you that I will put my best effort into making these posts as easy to read, as easy to understand, and as professional as I possibly can.
 
@@ -47,9 +47,9 @@ Well, I will post on this blog every Saturday at 9:45 PM Eastern Standard Time.
 
 These posts will all be about programming, whether I’m talking about a new project I’m working on, or explaining a new (or old) programming technology.
 
-### But if you're not interested in hearing me talk about random programming topics, I will post on Wednesdays (12:00 PM EST) every once and a while.
+### But if you're not interested in hearing me talk about random programming topics, I will post on Wednesdays (12:00 PM EST) every once in a while.
 
-Wednesday posts will generally be me ranting about the latest terrible Apple product, or maybe why you should really start using VSCode right now.
+Wednesday posts will generally be me ranting about the latest Apple product, or maybe why you should really start using VSCode right now.
 
 ### I guess that’s all for now.
 
