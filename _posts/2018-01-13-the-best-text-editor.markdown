@@ -2,7 +2,7 @@
 title:  "The Best Text Editor"
 subtitle: "What is the best text editor?"
 image: "img/posts/the-best-text-editor.png"
-date: 2018-01-12 12:12:12
+date: 2018-01-13 12:12:12
 ---
 
 ### Every web developer has to choose a text editor to use, but which one is the best?
