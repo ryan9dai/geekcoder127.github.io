@@ -6,8 +6,8 @@
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self"
         type="application/rss+xml"/>
-        <pubDate>Sat, 13 Jan 2018 14:52:13 +0000</pubDate>
-        <lastBuildDate>Sat, 13 Jan 2018 14:52:13 +0000</lastBuildDate>
+        <pubDate>Sat, 13 Jan 2018 14:58:57 +0000</pubDate>
+        <lastBuildDate>Sat, 13 Jan 2018 14:58:57 +0000</lastBuildDate>
         <generator>Jekyll v3.7.0</generator>
         
         <item>
@@ -24,7 +24,7 @@
   &lt;li&gt;Fast startup&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;With these main features taken into account, I’ve created my own list of the best text editors, that are available for &lt;strong&gt;both mac and windows&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;With these main features taken into account, I’ve created my own list of the best text editors, that are available for &lt;strong&gt;both Mac and Windows&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Please also note that this list is just my opinion, and I suggest that you look at all of the features of each text editor, and choose the one that is most appealing &lt;strong&gt;to you&lt;/strong&gt;.&lt;/p&gt;
 
@@ -78,7 +78,7 @@
 
 &lt;p&gt;Sublime boots up lighting fast, and has all the basic tools any developer needs - a file management toolbar, quick file multitasking, and most of all, easy code editing. The Sublime Text user interface is extremely simple and easy to use, but with that said, Sublime isn’t that sophisticated.&lt;/p&gt;
 
-&lt;p&gt;The package managment system is honestly really annoying and complicated to understand (and hard to find), and Sublime only supports a few languages for syntax highlighting.&lt;/p&gt;
+&lt;p&gt;The package management system is honestly really annoying and complicated to understand (and hard to find), and Sublime only supports a few languages for syntax highlighting.&lt;/p&gt;
 
 &lt;p&gt;I would say that Sublime Text is the best text editor for beginners, as it is simple to use, but doesn’t have many advanced features.&lt;/p&gt;
 

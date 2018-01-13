@@ -15,7 +15,7 @@ These features include:
 - A file managements toolbar
 - Fast startup
 
-With these main features taken into account, I've created my own list of the best text editors, that are available for **both mac and windows**.
+With these main features taken into account, I've created my own list of the best text editors, that are available for **both Mac and Windows**.
 
 Please also note that this list is just my opinion, and I suggest that you look at all of the features of each text editor, and choose the one that is most appealing **to you**.
 
@@ -69,7 +69,7 @@ Sublime Text is the most lightweight but still functional editor out there.
 
 Sublime boots up lighting fast, and has all the basic tools any developer needs - a file management toolbar, quick file multitasking, and most of all, easy code editing. The Sublime Text user interface is extremely simple and easy to use, but with that said, Sublime isn't that sophisticated.
 
-The package managment system is honestly really annoying and complicated to understand (and hard to find), and Sublime only supports a few languages for syntax highlighting.
+The package management system is honestly really annoying and complicated to understand (and hard to find), and Sublime only supports a few languages for syntax highlighting.
 
 I would say that Sublime Text is the best text editor for beginners, as it is simple to use, but doesn't have many advanced features.
 
