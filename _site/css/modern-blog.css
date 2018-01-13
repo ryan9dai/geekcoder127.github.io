@@ -55,6 +55,10 @@
 	background: #fff;
 }
 
+.card__content img:not(.meta__avatar) {
+	width: 100%;
+}
+
 .card__container--closed .card__content {
 	margin-top: 0;
 	padding: 0 16px;
