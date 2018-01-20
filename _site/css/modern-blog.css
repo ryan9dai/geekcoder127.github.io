@@ -59,6 +59,14 @@
 	width: 100%;
 }
 
+.card__content a {
+	color: #2188ff !important;
+	border-bottom: 1px solid rgba(33,136,255,0.5);
+}
+.card__content a:hover {
+	border-color: rgba(33,136,255,1);
+}
+
 .card__container--closed .card__content {
 	margin-top: 0;
 	padding: 0 16px;

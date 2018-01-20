@@ -1,7 +1,7 @@
 ---
 title:  "A Brief Introduction"
 subtitle: "My First Blog Post"
-image: "https://static.pexels.com/photos/699122/pexels-photo-699122.jpeg"
+image: "img/posts/a-brief-introduction.png"
 date: 2018-01-06 12:12:12
 ---
 

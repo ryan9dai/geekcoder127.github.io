@@ -25,7 +25,7 @@ So, without further ado, this is my list.
 
 ![](img/posts/the-best-text-editor-vscode.png)
 
-Not to be confused with the popular but very annoying and non-user friendly Visual Studio, VSCode has all of the features of some of the greatest text editors, but with a large array of packages, an extremely large amount of support for syntax highlighting for thousands of languages, and a friendly but featureful interface.
+Not to be confused with the popular but very annoying and non-user friendly Visual Studio, VSCode has all of the features of some of the greatest text editors, but with a large array of packages, an extremely large amount of support for syntax highlighting for thousands of languages, and a friendly but fully featured interface.
 
 VSCode starts up pretty quick, although not as fast as other alternatives (ie. Atom or Sublime), and upon opening, you see a screen where you have a few options. The most useful and most important option is to open a folder or file, which will generally be the current project you're working on.
 

