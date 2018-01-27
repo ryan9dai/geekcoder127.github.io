@@ -2,7 +2,7 @@
 title:  "How I Coded Snake in Under 5 Minutes"
 subtitle: "A simple explanation"
 image: "img/posts/how-i-coded-snake-in-under-5-minutes.png"
-date: 2018-01-24 12:12:12
+date: 2018-01-27 14:12:12
 ---
 
 So a little while back I did a presentation where I programmed snake in front of around 50 people in under 5 minutes (I managed it in 4:42).

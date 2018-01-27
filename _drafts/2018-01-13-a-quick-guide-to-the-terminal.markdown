@@ -71,3 +71,37 @@ When you type ```pwd```, the terminal will print out the current directory you a
 
 For example, if you're in the desktop, it will say ```C://Users/Your Name/Desktop```.
 
+The ```pwd``` command is useful when you don't know your current directory.
+
+**Command 2: cd**
+
+```cd``` is likely the most useful command that you'll use.
+
+```cd``` is used to navigate directories.
+
+In short, you type ```cd``` then the directory you'd like to navigate to, and it will navigate to that directory.
+
+To go to the parent directory, just type ```cd``` then "..".
+
+**Command 3: touch**
+
+The ```touch``` command is used to create a file.
+
+All you have to do is write ```touch``` then the name of the file, and it will create the file in the current directory.
+
+Note that you have to include the file extension when using the ```touch``` command.
+
+**Command 4: nano**
+
+You probably won't be using nano too much, but it's useful to know.
+
+Upon typing ```nano``` then a file name, the terminal will turn into a text editor, and you'll be able to edit the requested file.
+
+If the requested file is not found, it will create the file.
+
+```nano``` is useful when you want to quickly create and write to a file, as you don't have to use the ```touch``` command, or even open a text editor.
+
+To exit the nano editor, just type FN+F3, and press enter.
+
+Note that if you exit the terminal while you are on the nano editor, and you haven't saved the file, all your work will be lost.
+
