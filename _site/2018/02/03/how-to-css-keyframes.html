@@ -1,0 +1,85 @@
+<p>In your website, have you ever wanted to make custom animations without flash or special custom gifs?</p>
+
+<p>Well, CSS keyframes solve this problem. CSS keyframes allow you to create custom animations for most HTML elements.</p>
+
+<h2 id="so-how-do-i-use-them">So how do I use them?</h2>
+
+<p>Well, keyframes are first called by an element with the animation CSS property.</p>
+
+<p>The animation property looks like this:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">animation</span><span class="o">:</span> <span class="nt">exampleAnimation</span> <span class="nt">1s</span> <span class="nt">linear</span> <span class="nt">infinite</span><span class="o">;</span>
+</code></pre></div></div>
+
+<p>This will make the animation call the “exampleAnimation” keyframe, which will last 5 seconds, and be linear (go at the same pace regarless of time), and will loop infinitely.</p>
+
+<p>But, of course, this won’t work, because we haven’t defined “exampleAnimation.”</p>
+
+<p>The define this, we use the “@keyframes” selector.</p>
+
+<p>For our example animation it would start like this:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@keyframes</span> <span class="n">exampleAnimation</span> <span class="p">{</span>
+	
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Now we need to specify our animation inside the curly parentheses.</p>
+
+<p>To make an animation, we specify a time in the animation, and styles that correspond to that time.</p>
+
+<p>With the times written, your element will automatically smoothly transition from each time style to the next.</p>
+
+<p>For example, we could have the keyframe:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">@keyframes</span> <span class="n">exampleAnimation</span> <span class="p">{</span>
+	<span class="nt">0</span><span class="o">%</span> <span class="p">{</span>
+		<span class="nl">opacity</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+		<span class="nl">transform</span><span class="p">:</span> <span class="n">scale</span><span class="p">(</span><span class="m">0</span><span class="p">);</span>
+	<span class="p">}</span>
+	<span class="nt">100</span><span class="o">%</span> <span class="p">{</span>
+		<span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;</span>
+		<span class="nl">transform</span><span class="p">:</span> <span class="n">scale</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
+	<span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>This would give your element a nice fade in and pop in effect.</p>
+
+<p>But this still will be weird, because we set the animation to infinite.</p>
+
+<p>Let’s take the infinite out.</p>
+
+<p>It still doesn’t work though, because the final style in the keyframe expires after the animation is over.</p>
+
+<p>We can add some Javascript to compensate, though.</p>
+
+<p>Essentially we’ll just use the setTimeout function to add a class with the final styles to the element.</p>
+
+<p>That could look like this:</p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">button</span><span class="p">.</span><span class="nx">onclick</span> <span class="o">=</span> <span class="kd">function</span><span class="p">(){</span>
+	<span class="c1">// Add class with animation</span>
+	<span class="nx">element</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span><span class="s2">"class"</span><span class="p">,</span><span class="s2">"animateIn"</span><span class="p">);</span>
+	<span class="nx">setTimeout</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span>
+		<span class="nx">element</span><span class="p">.</span><span class="nx">setAttribute</span><span class="p">(</span><span class="s2">"class"</span><span class="p">,</span><span class="s2">"animateIn animated"</span><span class="p">);</span>
+	<span class="p">},</span><span class="mi">1000</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The animated class could just have styles that look exactly like the final styles in our keyframe:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.animated</span> <span class="p">{</span>
+	<span class="nl">opacity</span><span class="p">:</span> <span class="m">1</span><span class="p">;</span>
+	<span class="nl">transform</span><span class="p">:</span> <span class="n">scale</span><span class="p">(</span><span class="m">1</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h2 id="thats-all-for-this-week">That’s all for this week!</h2>
+
+<p>I hope you learned something from this post!</p>
+
+<h3 id="quick-update-ill-probably-be-posting-more-on-wednesdays-now">Quick update: I’ll probably be posting more on Wednesdays now!</h3>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">"Bye!"</span><span class="p">);</span>
+</code></pre></div></div>
