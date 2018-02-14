@@ -6,9 +6,77 @@
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self"
         type="application/rss+xml"/>
-        <pubDate>Wed, 14 Feb 2018 17:02:28 +0000</pubDate>
-        <lastBuildDate>Wed, 14 Feb 2018 17:02:28 +0000</lastBuildDate>
+        <pubDate>Wed, 14 Feb 2018 17:05:36 +0000</pubDate>
+        <lastBuildDate>Wed, 14 Feb 2018 17:05:36 +0000</lastBuildDate>
         <generator>Jekyll v3.7.0</generator>
+        
+        <item>
+            <title>A Quick Update #1</title>
+            <description>&lt;h3 id=&quot;so-ive-been-doing-this-blog-for-a-few-weeks-now&quot;&gt;So I’ve been doing this blog for a few weeks now.&lt;/h3&gt;
+
+&lt;p&gt;I’ve definitely learned a lot during those few weeks, and I’d like to make a few improvements to the blog.&lt;/p&gt;
+
+&lt;p&gt;But before I make those improvements, I’d like to let you know about what they are.&lt;/p&gt;
+
+&lt;p&gt;I’ll also talk about upcoming posts, as well as a few post-series I’m starting.&lt;/p&gt;
+
+&lt;h3 id=&quot;but-first-id-like-to-thank-you-any-of-you-that-are-reading-this&quot;&gt;But first, I’d like to thank you, any of you that are reading this.&lt;/h3&gt;
+
+&lt;h2 id=&quot;thank-you&quot;&gt;Thank You.&lt;/h2&gt;
+
+&lt;p&gt;It really means a lot to me that you are reading this.&lt;/p&gt;
+
+&lt;h3 id=&quot;okay-with-that-over-with-lets-begin&quot;&gt;Okay, with that over with, let’s begin.&lt;/h3&gt;
+
+&lt;p&gt;So I feel like I’m not writing on this blog enough.&lt;/p&gt;
+
+&lt;p&gt;I mean, I feel like I’m only giving you all a 350 word post every week.&lt;/p&gt;
+
+&lt;p&gt;That’s not much.&lt;/p&gt;
+
+&lt;p&gt;So, from this week onwards, I’m going to try to make the blog posts longer, and more frequent.&lt;/p&gt;
+
+&lt;p&gt;I will still post every Saturday at 9:45 AM EST, but I aim to post on Sunday as well, at the same time.&lt;/p&gt;
+
+&lt;p&gt;Also, this is actually my first Wednesday post, and I hope to do more for all of the viewers that aren’t as interested in the programming side of things.&lt;/p&gt;
+
+&lt;p&gt;For Wednesday posts, I’ll try to give you all an update on my latest programming projects, and my views on the latest tech out there.&lt;/p&gt;
+
+&lt;h3 id=&quot;im-also-starting-a-post-series&quot;&gt;I’m also starting a post-series.&lt;/h3&gt;
+
+&lt;p&gt;So, I’ve been thinking, some of you all might not know much about programming.&lt;/p&gt;
+
+&lt;p&gt;Well, I am to teach you all in a short series of posts, which will teach you the fundementals of web development.&lt;/p&gt;
+
+&lt;h2 id=&quot;im-calling-it-web-development-in-500-words&quot;&gt;I’m calling it Web Development in 500 words.&lt;/h2&gt;
+
+&lt;p&gt;Every Monday and Tuesday (until the series in finished), I will post a guide about a specific thing in programming.&lt;/p&gt;
+
+&lt;p&gt;For example one of these posts will be called HTML in 500 Words.&lt;/p&gt;
+
+&lt;p&gt;The series will probably last around 2 or 3 weeks.&lt;/p&gt;
+
+&lt;p&gt;I’ve also been working on a few somewhat long posts.&lt;/p&gt;
+
+&lt;p&gt;These include:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A quick guide to the terminal (git bash)&lt;/li&gt;
+  &lt;li&gt;Building your own programming language&lt;/li&gt;
+  &lt;li&gt;Writing your first Machine Learning Program&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;i-hope-this-post-gave-you-a-good-idea-of-whats-happening-in-the-future-of-this-blog&quot;&gt;I hope this post gave you a good idea of what’s happening in the future of this blog.&lt;/h3&gt;
+
+&lt;div class=&quot;language-javascript highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;console&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;log&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;See you later!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+            <pubDate>Wed, 14 Feb 2018 09:00:00 +0000</pubDate>
+            <link>http://localhost:4000#/2018/02/14/a-quick-update-number-1.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/02/14/a-quick-update-number-1.html</guid>
+            
+            
+        </item>
         
         <item>
             <title>Firebase: The New Node</title>
