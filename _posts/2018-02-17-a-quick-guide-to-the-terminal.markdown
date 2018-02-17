@@ -149,7 +149,7 @@ As you know, I released a post this Wednesday talking about the future of this b
 
 In that post, I said that I'll be releasing posts on Sundays, and posts on Mondays and Tuesdays.
 
-I will be posting tomorrow, but I will only start Monday and Tuesday posts next week.
+Unfortunately, I will only start posting on Sundays, Mondays, and Tuesdays next week.
 
 ```css
 div {
