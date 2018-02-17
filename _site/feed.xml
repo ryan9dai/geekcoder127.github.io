@@ -6,9 +6,171 @@
         <link>http://localhost:4000/</link>
         <atom:link href="http://localhost:4000/feed.xml" rel="self"
         type="application/rss+xml"/>
-        <pubDate>Wed, 14 Feb 2018 17:10:11 +0000</pubDate>
-        <lastBuildDate>Wed, 14 Feb 2018 17:10:11 +0000</lastBuildDate>
+        <pubDate>Sat, 17 Feb 2018 11:04:07 +0000</pubDate>
+        <lastBuildDate>Sat, 17 Feb 2018 11:04:07 +0000</lastBuildDate>
         <generator>Jekyll v3.7.0</generator>
+        
+        <item>
+            <title>A Quick Guide To Terminal</title>
+            <description>&lt;p&gt;When I first started coding, I would just search up videos online to try to learn new stuff.&lt;/p&gt;
+
+&lt;p&gt;Every once and I while, when I was watching these videos, the person would pull up the terminal or command line, and type a bunch of commands.&lt;/p&gt;
+
+&lt;h3 id=&quot;i-didnt-understand-any-of-those-commands&quot;&gt;I didn’t understand any of those commands.&lt;/h3&gt;
+
+&lt;p&gt;After seeing people use the command line so much, I eventually figured most of it out, and the rest I learned online.&lt;/p&gt;
+
+&lt;p&gt;But if you’re in the situation that I was in years ago, I don’t want you to go through a bunch of internet articles to figure it out.&lt;/p&gt;
+
+&lt;h3 id=&quot;so-i-made-this-guide-to-teach-you-how-the-terminal-works&quot;&gt;So, I made this guide to teach you how the terminal works.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;1. Why is the terminal useful, and what is it used for?&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For starters, terminal can be really useful for navigating the filesystem extremely quickly.&lt;/p&gt;
+
+&lt;p&gt;With terminal, you can:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Navigate through folders&lt;/li&gt;
+  &lt;li&gt;View files&lt;/li&gt;
+  &lt;li&gt;Edit files&lt;/li&gt;
+  &lt;li&gt;Create files&lt;/li&gt;
+  &lt;li&gt;Create folders&lt;/li&gt;
+  &lt;li&gt;Move folders&lt;/li&gt;
+  &lt;li&gt;Delete files&lt;/li&gt;
+  &lt;li&gt;Delete folders&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, if you’re starting a new project for example, you can quickly make all of the folders and files you need to start.&lt;/p&gt;
+
+&lt;p&gt;After that, you can just open up your text editor and open your main folder.&lt;/p&gt;
+
+&lt;p&gt;Along with just navigating the filesystem, terminal can be used to utilize installed commands.&lt;/p&gt;
+
+&lt;p&gt;For example, when install Nodejs (a popular js framework), it automatically creates both the &lt;code class=&quot;highlighter-rouge&quot;&gt;node&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;npm&lt;/code&gt; commands on your terminal.&lt;/p&gt;
+
+&lt;p&gt;So, you can run the command node on your terminal, for example, and it will give you a javascript console.&lt;/p&gt;
+
+&lt;p&gt;Another example is the npm command, which stands for &lt;em&gt;Node Package Manager&lt;/em&gt;, and it allows you to install packages for node.&lt;/p&gt;
+
+&lt;p&gt;So, you can run &lt;code class=&quot;highlighter-rouge&quot;&gt;npm install package-name&lt;/code&gt;, and it will install the requested package for you.&lt;/p&gt;
+
+&lt;p&gt;Another example is &lt;code class=&quot;highlighter-rouge&quot;&gt;npm start&lt;/code&gt;, which automatically boots up the project whose folder you’re currently in.&lt;/p&gt;
+
+&lt;h3 id=&quot;okay-can-i-just-learn-a-few-commands-already&quot;&gt;Okay, can I just learn a few commands already?&lt;/h3&gt;
+
+&lt;p&gt;Well, first, I need to explain the difference in the Windows and Mac terminals.&lt;/p&gt;
+
+&lt;p&gt;Windows uses a terminal called command line, which is not what I’m going to teach you, because although the syntax is relatively similar to the one I’m going to teach you, you’ll likely never have to use it.&lt;/p&gt;
+
+&lt;p&gt;Mac and Linux both come with a terminal called Git Bash, which is the one I’ll be teaching you.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;No, I’ve not forgotten about all of you Windows users out there.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;For Windows, you can just download Git Bash from the Git Bash site.&lt;/p&gt;
+
+&lt;p&gt;I can’t memorize the URL off the top of my head, so just search it online.&lt;/p&gt;
+
+&lt;h3 id=&quot;okay-lets-start&quot;&gt;Okay, let’s start.&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Command 1: pwd&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;pwd&lt;/code&gt; is one of the main commands you’ll be using.&lt;/p&gt;
+
+&lt;p&gt;When you type &lt;code class=&quot;highlighter-rouge&quot;&gt;pwd&lt;/code&gt;, the terminal will print out the current directory you are in.&lt;/p&gt;
+
+&lt;p&gt;For example, if you’re in the desktop, it will say &lt;code class=&quot;highlighter-rouge&quot;&gt;C://Users/Your Name/Desktop&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;pwd&lt;/code&gt; command is useful when you don’t know your current directory.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Command 2: cd&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; is likely the most useful command that you’ll use.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; is used to navigate directories.&lt;/p&gt;
+
+&lt;p&gt;In short, you type &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; then the directory you’d like to navigate to, and it will navigate to that directory.&lt;/p&gt;
+
+&lt;p&gt;To go to the parent directory, just type &lt;code class=&quot;highlighter-rouge&quot;&gt;cd&lt;/code&gt; then “..”.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Command 3: touch&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;touch&lt;/code&gt; command is used to create a file.&lt;/p&gt;
+
+&lt;p&gt;All you have to do is write &lt;code class=&quot;highlighter-rouge&quot;&gt;touch&lt;/code&gt; then the name of the file, and it will create the file in the current directory.&lt;/p&gt;
+
+&lt;p&gt;Note that you have to include the file extension when using the &lt;code class=&quot;highlighter-rouge&quot;&gt;touch&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Command 4: nano&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;You probably won’t be using nano too much, but it’s useful to know.&lt;/p&gt;
+
+&lt;p&gt;Upon typing &lt;code class=&quot;highlighter-rouge&quot;&gt;nano&lt;/code&gt; then a file name, the terminal will turn into a text editor, and you’ll be able to edit the requested file.&lt;/p&gt;
+
+&lt;p&gt;If the requested file is not found, it will create the file.&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;nano&lt;/code&gt; is useful when you want to quickly create and write to a file, as you don’t have to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;touch&lt;/code&gt; command, or even open a text editor.&lt;/p&gt;
+
+&lt;p&gt;To save your file while still in the nano editor, just type FN+F3, and press enter.&lt;/p&gt;
+
+&lt;p&gt;To exit the nano editor, simply type CTRL+X.&lt;/p&gt;
+
+&lt;p&gt;Note that if you exit the terminal while you are on the nano editor, and you haven’t saved the file, all your work will be lost.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Command 5: mv&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Moving files is one of the most important things in the terminal.&lt;/p&gt;
+
+&lt;p&gt;To do this, just type &lt;code class=&quot;highlighter-rouge&quot;&gt;mv&lt;/code&gt; then the file that you want to move (relative to your current directory), then space, then the directory you’d like to move that file to.&lt;/p&gt;
+
+&lt;p&gt;For example, let’s move the file &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt; to the &lt;code class=&quot;highlighter-rouge&quot;&gt;assets/html/&lt;/code&gt; directory:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mv index.html assets/html/&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;This can also be used to rename files.&lt;/p&gt;
+
+&lt;p&gt;For example, we can rename the file &lt;code class=&quot;highlighter-rouge&quot;&gt;main.css&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;styles.css&lt;/code&gt; like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mv assets/css/main.css assets/css/styles.css&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Command 6: rm&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To remove a file or files, you’ll need to use the &lt;code class=&quot;highlighter-rouge&quot;&gt;rm&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;The &lt;code class=&quot;highlighter-rouge&quot;&gt;rm&lt;/code&gt; command is pretty self explanatory: just type &lt;code class=&quot;highlighter-rouge&quot;&gt;rm&lt;/code&gt; then the files you’d like to delete.&lt;/p&gt;
+
+&lt;p&gt;For example, let’s delete the files &lt;code class=&quot;highlighter-rouge&quot;&gt;main.css&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;background.jpg&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;index.html&lt;/code&gt;:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;rm assets/css/main.css assets/img/background.jpg index.html&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Command 7: less&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;To edit a file, you can use the &lt;code class=&quot;highlighter-rouge&quot;&gt;nano&lt;/code&gt; command, but if you want to just view a file, you can use the &lt;code class=&quot;highlighter-rouge&quot;&gt;less&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;The syntax of the &lt;code class=&quot;highlighter-rouge&quot;&gt;less&lt;/code&gt; command is very similar to the syntax of the &lt;code class=&quot;highlighter-rouge&quot;&gt;nano&lt;/code&gt; command.&lt;/p&gt;
+
+&lt;p&gt;Just type &lt;code class=&quot;highlighter-rouge&quot;&gt;less&lt;/code&gt; then the file you’d like to read.&lt;/p&gt;
+
+&lt;p&gt;To exit the &lt;code class=&quot;highlighter-rouge&quot;&gt;less&lt;/code&gt; viewer, just press the letter &lt;code class=&quot;highlighter-rouge&quot;&gt;q&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;well-thats-all-i-have-for-you-today&quot;&gt;Well, that’s all I have for you today.&lt;/h3&gt;
+
+&lt;p&gt;As you know, I released a post this Wednesday talking about the future of this blog.&lt;/p&gt;
+
+&lt;p&gt;In that post, I said that I’ll be releasing posts on Sundays, and posts on Mondays and Tuesdays.&lt;/p&gt;
+
+&lt;p&gt;I will be posting tomorrow, but I will only start Monday and Tuesday posts next week.&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nt&quot;&gt;div&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;nl&quot;&gt;background-image&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;sx&quot;&gt;url(bye.gif)&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+</description>
+            <pubDate>Sat, 17 Feb 2018 09:00:00 +0000</pubDate>
+            <link>http://localhost:4000#/2018/02/17/a-quick-guide-to-the-terminal.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/02/17/a-quick-guide-to-the-terminal.html</guid>
+            
+            
+        </item>
         
         <item>
             <title>A Quick Update #1</title>
@@ -819,6 +981,39 @@ These divs will be the grid spaces of the snake body and apple.&lt;/p&gt;
             <pubDate>Sat, 13 Jan 2018 12:12:12 +0000</pubDate>
             <link>http://localhost:4000#/2018/01/13/the-best-text-editor.html</link>
             <guid isPermaLink="true">http://localhost:4000#/2018/01/13/the-best-text-editor.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Your First Machine Learning Program</title>
+            <description>
+</description>
+            <pubDate>Sat, 13 Jan 2018 12:12:12 +0000</pubDate>
+            <link>http://localhost:4000#/2018/01/13/writing-your-first-ml-program.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/01/13/writing-your-first-ml-program.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Creating a Programming Language (1)</title>
+            <description>
+</description>
+            <pubDate>Sat, 13 Jan 2018 12:12:12 +0000</pubDate>
+            <link>http://localhost:4000#/2018/01/13/building-your-own-programming-language.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/01/13/building-your-own-programming-language.html</guid>
+            
+            
+        </item>
+        
+        <item>
+            <title>Building your Own Cryptocurrency</title>
+            <description>
+</description>
+            <pubDate>Sat, 13 Jan 2018 12:12:12 +0000</pubDate>
+            <link>http://localhost:4000#/2018/01/13/building-your-own-cryptocurrency.html</link>
+            <guid isPermaLink="true">http://localhost:4000#/2018/01/13/building-your-own-cryptocurrency.html</guid>
             
             
         </item>
